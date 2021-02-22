@@ -1,0 +1,27 @@
+completion_text: |-
+  <p>lorem ipsum</p>
+description: |-
+  lorem ipsum
+next_flow_id: ''
+next_flow_title: ''
+pages:
+- content: |-
+    <p>lorem ipsum</p>
+  id: intro
+  title: Inicio
+  type: Page
+- content: |-
+    <p>lorem ipsum</p>
+  id: page59
+  title: "M\xF3dulo 1"
+  type: Page
+rules:
+  access:
+  - if_has_role:
+    - ta
+    - student
+    - instructor
+    permissions:
+    - view
+  grade_identifier: null
+title: "M\xF3dulo 1"
